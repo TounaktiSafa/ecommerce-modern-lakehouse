@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Azure credentials / secrets
+*.pem
+*.key
+credentials.json
+
+# Data files
+data/raw/*
+data/sample/*
+*.csv
+*.parquet
+*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Python tooling
+.pytest_cache/
+.coverage
+htmlcov/
